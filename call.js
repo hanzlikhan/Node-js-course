@@ -4,5 +4,5 @@ console.log(names);
 
 // sayHi('susan');
 // sayHi(john);
-// sayHi(peter);
+sayHi(peter);
 
