@@ -3,6 +3,6 @@ const names = require('./dec')
 console.log(names);
 
 // sayHi('susan');
-// sayHi(john);
+sayHi(john);
 sayHi(peter);
 
