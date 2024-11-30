@@ -1,3 +1,4 @@
-const sayHi = (name)=>{
-  console.log(`Hi, ${name}!`);
+const value = require('./dec')
+const sayHi = (value.name)=>{
+  console.log(`Hi, ${value.name}!`);
 }
