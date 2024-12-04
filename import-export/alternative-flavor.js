@@ -8,4 +8,4 @@ const person = {
 }
 
 // set up another property 
-// module.exports.singlePerson = person
+module.exports.singlePerson = person
