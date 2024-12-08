@@ -7,7 +7,7 @@
   
  }
  console.log("hey its my first node app");
- console.log(__dirname);
+//  console.log(__dirname);
 setInterval(() => {
   // console.log("hello world");
   
