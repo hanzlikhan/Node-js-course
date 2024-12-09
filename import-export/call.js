@@ -2,7 +2,7 @@
 // importing default method 
 const names = require('./dec')
 const sayHi = require('./func')
-const data = require('./alternative-flavor')
+// const data = require('./alternative-flavor')
 // console.log(data);
 
 // require('./mind_grand')
