@@ -6,7 +6,7 @@ console.log(chalk.red('Success: Everything is working perfectly!'));
 const os = require('os');
 
 // info about the current user 
-const user = os.userInfo()
+const user = os.userInfo() 
 console.log(user);
 
 // method returns the system uptime in seconds
