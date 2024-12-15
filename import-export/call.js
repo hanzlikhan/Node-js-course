@@ -3,7 +3,7 @@
 const names = require('./dec')
 const sayHi = require('./func')
 // const data = require('./alternative-flavor')
-// console.log(data);
+console.log(data);
 
 require('./mind_grand')
 // sayHi('susan');
