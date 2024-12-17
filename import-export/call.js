@@ -7,6 +7,6 @@ console.log(data);
 
 require('./mind_grand')
 sayHi('susan');
-// sayHi(names.john);
+sayHi(names.john);
 // sayHi(names.peter);
 
