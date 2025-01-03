@@ -3,8 +3,8 @@ const app = express()
 app.get('/', (req, res) => {
     res.send('Welcome');
 })
-
-app.get("/jokes", (req, res) => {
+// this is not a good way to get any request like '/jokes' we shoudl access like '/api/v1/jokes'
+app.get("/api/jokes", (req, res) => {
   const jokes = [
     {
       id: 1,
