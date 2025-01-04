@@ -2,7 +2,7 @@
 const fs = require('fs');
 
 // Step 2: Create a file and write to it
-fs.writeFileSync('demo.txt', 'This is a demo file created using Node.js!');
+// fs.writeFileSync('demo.txt', 'This is a demo file created using Node.js!');
 
 // Step 3: Read the file's content
 const data = fs.readFileSync('demo.txt', 'utf8');
