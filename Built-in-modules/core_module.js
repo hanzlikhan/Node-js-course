@@ -6,7 +6,7 @@ const fs = require('fs');
 
 // Step 3: Read the file's content
 const data = fs.readFileSync('demo.txt', 'utf8');
-// console.log('File Content:', data);
+console.log('File Content:', data);
 
 // Step 4: Append more text to the file
 fs.appendFileSync('demo.txt', '\nAdding more content!');
