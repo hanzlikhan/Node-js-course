@@ -12,5 +12,5 @@ console.log('File Content:', data);
 // fs.appendFileSync('demo.txt', '\nAdding more content!');
 
 // Step 5: Read the updated file content
-const updatedData = fs.readFileSync('demo.txt', 'utf8');
+// const updatedData = fs.readFileSync('demo.txt', 'utf8');
 console.log('Updated File Content:', updatedData);
