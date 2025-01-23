@@ -34,7 +34,7 @@ int main(){
   sprintf(ptr, "%s", message_0);
   ptr += strlen(message_0);
   sprintf(ptr, "%s", message_1);
-  ptr += strlen(message_1);
+  // ptr += strlen(message_1);
 
   // remove the shared memory object
   return 0;
