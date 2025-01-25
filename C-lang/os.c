@@ -31,7 +31,7 @@ int main(){
 
   //read from the shared memory object
   printf("%s", (char *)ptr);
-  // sprintf(ptr, "%s", message_0);
+   sprintf(ptr, "%s", message_0);
   ptr += strlen(message_0);
   sprintf(ptr, "%s", message_1);
   // ptr += strlen(message_1);
