@@ -1,0 +1,8 @@
+when we want to require whole folder information then we have to make file at the name of index.js and import every files which are there in that directory and last export that file 
+then we have to import in any file by the name of that directory like 
+
+let fruits = require("./fruits")   // this is the name of other folder which we want to import 
+
+in this way it find first of all index.js file then it import every thing in that directory
+
+which information import index.js , that information will import there
