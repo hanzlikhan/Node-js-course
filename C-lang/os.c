@@ -19,7 +19,7 @@ int main(){
   // void *ptr;
   // create the shared memory object
   shm_fd = shm_open(name, O_CREAT | O_RDWR, 0666);
-  // configure the size of the shared memory object
+  // configure the size of the shared memory objec
   ftruncate(shm_fd, SIZE);
   // memory map the shared memory object
   // for producer 

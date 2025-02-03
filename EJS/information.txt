@@ -1,0 +1,52 @@
+templating => blueprint
+EJS => embedded javascript templates
+a simple templating language that lets you generate HTML markup with plain javascript
+
+All files should be in the views directory for the template 
+
+
+Interetation syntax
+
+refers to the 
+
+Includes:
+agr html page ke andar bhi koi temlate use krna chahte hai to us keliye hm include ka use kare ge.
+         <%- Include ("Includes/head.ejs") %>
+
+
+         we will remove any code part of our file and we will add it to the include folder by making a file 
+         then we can can include it to teh any file where it needed 
+
+
+Static file ko serve kr skte hai 
+
+app.use(express.static(folder.name))
+
+this path is necessary to give in the index.js and we don't need to specify the full path for any file like 
+
+public/style.css
+
+we will just give path /style.css
+coz we also specify the path in the index.js file 
+public folder will serve all file in the response 
+
+
+public folder require for the static file 
+views folder require for the templates 
+we can add multiple folder in the public folder and 
+public folder will serve all 
+we can add script tag 
+
+
+Get and Post request 
+
+Get =>:-
+use to get some response 
+
+
+Data sent in query strings
+(limited , string data , visible in URL)
+
+Post =>:-
+used to post something ( for create / write / update / delete data)
+data sent in request body (not visible in URL)

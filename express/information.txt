@@ -1,0 +1,8 @@
+nodemon
+
+it is used to restart server automatically
+
+
+path parameter 
+
+how to define 
