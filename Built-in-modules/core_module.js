@@ -14,3 +14,5 @@ console.log('File Content:', data);
 // Step 5: Read the updated file content
 const updatedData = fs.readFileSync('demo.txt', 'utf8');
 console.log('Updated File Content:', updatedData);
+// i am hanzla , computer science student at government college university faisalabad , i was studeid in the microbiology in the university okara for one year and almost three semesters , and after that i took admission in teh gcuf , 
+// 
