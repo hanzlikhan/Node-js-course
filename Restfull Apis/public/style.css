@@ -1,0 +1,16 @@
+h1{
+    color: red;
+}
+.post{
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: chocolate;
+}
+.post h2{
+    color: blue;
+}
+
+.post p{
+    margin-bottom: 10px;
+}

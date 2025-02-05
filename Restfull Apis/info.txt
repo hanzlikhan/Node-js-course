@@ -17,3 +17,21 @@ POST submits new data to the server
 PUT updates existing data 
 PATCH update existing data partially 
 DELETE removes data 
+
+UUID package 
+
+universally unique identifier
+
+npm install uuid
+
+update request 
+
+PATCH
+/post/:id
+
+
+method override 
+then we can use the method override header to override the request method 
+put patch and delete method not supported html request
+
+post  ----> patch  -> convert 
