@@ -7,7 +7,7 @@ const server = http.createServer((req, res) => {
         res.write(JSON.stringify({ message: 'Hello, JSON!' }));
     } else {
         res.writeHead(404, { 'Content-Type': 'text/plain' });
-        res.write('Not Found');
+        // res.write('Not Found');
     }
     res.end();
 });
